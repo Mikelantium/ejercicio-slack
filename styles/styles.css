@@ -1,0 +1,369 @@
+* {
+  margin:0;
+  padding:0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header {
+  background-color: #541554;
+}
+.header1 {
+  display:flex;
+  justify-content: space-between;
+  padding: 2% 4% 0 3%;
+}
+.logo {
+  height: 66px;
+}
+.menu {
+  height: 50px;    
+}
+header h1{
+  font-size: 45px;
+}
+.white-header {
+  color:white;
+  text-align: center;
+  margin-top:20px;
+}
+.yellow-header {
+  color:#ecb22e;
+  text-align: center;
+}
+.white-conect {
+  color:white;
+  text-align: center;
+  line-height: 25px;
+  font-size: 18px;
+  margin: 12px;    
+}
+.register {
+  background-color: white;
+  color:#541554;
+  font-size: 15px;
+  text-align: center;
+  border-radius:3px;
+  padding:20px;
+  margin: 10px 4%;
+}
+.register-google {
+  display:flex;
+  justify-content: space-between;
+  background-color: #4285f4;
+  font-size: 13px;
+  border-radius: 3px;
+  padding:5px;
+  margin: 10px 4%;
+  text-align: center;
+}
+.register-google h3 {
+  padding:5px;
+  margin: 10px 20px;
+}
+.register-google img {
+  height: 50px;
+}
+
+.register a {
+  text-decoration: none;
+}
+.register-google a{
+  text-decoration: none;
+  color:white;    
+}
+.gif {
+  width: 100%;
+  margin-top:20px;
+}
+.main1 {
+  background-color: #F4EDE4;
+  padding: 10%;
+  margin:-4px auto;
+}
+.main1 h3 {
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10%;
+}
+.main1 img {
+  height: 40px;
+}
+.logos-empresas img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   
+  gap: 25px;
+  width: 10px;
+}
+.main2 {
+  background-color: #F4EDE4;
+}
+.main2 img {
+  width: 100%;
+}
+.main2-text, .main2-text2, .main2-text3{
+  padding: 20px 15px 65px 20px;
+}
+.main2 h2 {
+  font-size: 30px;
+  line-height: 36px;
+}
+.main2 p {
+  line-height: 25px;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.main2 a {
+  text-decoration: none;
+  font-size: 20px;
+  color:#3261ad;
+
+}
+.main3 {
+  background-color: white;
+}
+.main3 {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2% 4% 0 3%;
+  text-align: center;
+
+}
+.main3 h2 {
+  font-size: 30px;
+  margin: 60px 0 15px 0;
+}
+.main3 p {
+  line-height:25px;
+  font-size: 20px;
+}
+.empresas {
+  background-color:#611f69;
+  font-size: 15px;
+  text-align: center;
+  border-radius:5px;
+  padding:20px;
+  margin: 30px 0 10px 0;
+}
+.empresas a{
+  color: white;
+  text-decoration: none;
+}
+.ventas {
+  background-color: white;
+  color:#611f69;
+  border: 2px solid #611f69;
+  font-size: 15px;
+  text-align: center;
+  border-radius:5px;
+  padding:20px;
+  margin: 10px 0 10px 0;    
+}
+.ventas a{
+  text-decoration: none;
+}
+.main4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10% 25%;
+}
+.main4 h2 {
+  color:#611f69;
+  font-size: 50px;
+  margin-top: 35px;
+}
+.video {
+  clip-path: inset(25px 0 25px 0 round 0 500px 500px 0);
+  width: 98%;
+  height:215px;
+  margin: 20px 0 40px 0;
+}
+.testimonio {
+  font-style: italic;
+  font-size: 22px;
+  margin: 0 30px 10px 30px;
+}
+.autor1 {
+  font-weight: bold;
+  font-size: 17px;
+  margin: 25px 30px 0 25px;
+}
+.autor2 {
+  margin: 0 30px 0 25px;
+  font-size: 17px;
+}
+.clientes {
+  margin: 25px 30px 0px 25px;
+  padding-bottom: 20px;
+  font-size: 17px;
+  text-decoration: none;
+  text-align: left;   
+}
+.clientes a {
+  color: #3261ad;
+  text-decoration: none;
+}
+.letra-pequeña {
+  margin: 40px 20px 30px 20px;
+  font-size: 15px; 
+  text-align: center;
+}
+.main5 {
+  background-color: #F4EDE4;
+  padding-bottom: 20px;
+}
+.main5 h2 {
+  font-size: 22px;
+  margin: 40px 0 20px 20px;
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+.tarjeta {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  margin: 10px 50px;
+  padding: 15px;
+  box-shadow: 0 0 2rem rgba(0,0,0,.2);
+}
+.tarjeta p {
+  margin: 20px 0px 10px 0px;
+}
+.tarjeta h3 {
+  line-height: 25px;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+.funciones {
+  font-size: 14px;
+  font-weight: bold;
+}
+.funciones a {
+  color: #3261ad;
+  text-decoration: none;
+}
+.carrusel {
+
+  display:block;
+  margin: 0 auto;
+}
+.footer1 {
+  background-color: #541554;
+  padding-bottom:65px;
+  clip-path:ellipse(105% 100% at center top);
+}
+.footer1 h2 {
+  padding: 70px 30px 50px 30px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.gratis {
+  background-color:white;
+  font-size: 16px;
+  text-align: center;
+  border-radius:5px;
+  padding:20px 0px;
+  margin: 0 12px 0px 12px;
+}
+.gratis a{
+  color:#611f69;;
+  text-decoration: none;
+}
+.ventas2 {
+  font-size: 12px;
+  text-align: center;
+  border-radius:5px;
+  padding:20px 0px;
+  margin: 20px 12px 30px 12px;
+  border: 2px solid white;
+
+}
+.ventas2 a{
+  color: white;
+  text-decoration: none;
+  
+  font-size: 15px;
+  text-align: center;
+  border-radius:5px;
+  padding:20px;
+  margin: 10px 0 10px 0;
+}
+.footer2 {
+  background-color: white;
+
+}
+.logo-footer {
+  margin: 50px 0 30px 0;
+}
+.footer2-apartados {
+  display:flex;
+  justify-content: space-between;
+  margin: 0 10px 10px 15px;
+}
+.footer2-apartados p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+.line {
+  background-color: #ebeaeb;
+  height: 3px;
+  margin: 15px 4vw 25px 4vw;
+}
+.footer3{
+  margin: 0 0 10px 15px;
+}
+.footer3 a{
+color:black;
+text-decoration: none;
+font-size: 15px;
+font-weight: bold;
+}
+.footer3 p{
+  margin: 28px 0;
+}
+.privacidad {
+  display: flex;
+  align-items: center;
+  margin: -28px 0;
+}
+.privacidad img {
+  height: 35px;
+}
+
+.region {
+  display:fleX;
+  align-items: center;
+}
+.region img {
+  height: 30px;
+}
+.region p {
+  margin: -28px 0;  
+}
+.descarga {
+  display:flex;
+  align-items: center;
+}
+.descarga a {
+  color: #1264a3; 
+}
+.logos {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px 0 0;
+}
+.logos img {
+  height: 20px;
+}
+.derechos {
+  font-size: 13.5px;
+  padding: 0 0 20px 0;
+  line-height: 20px;
+}
