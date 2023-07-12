@@ -1,0 +1,23 @@
+@media screen and (min-width: 481px){
+
+.header{
+    background-color: $color-base-1;
+    height: 80px;
+
+    &-nav{
+        @include displayFlex();
+        height: 100%;
+        padding: 0 8%;
+    }
+
+    .slack-logo{
+        height: 82px;
+        width: 161px;
+    }
+
+    .burger-logo{
+        height: 50px;
+        width: 50px;
+    }
+}
+}

@@ -1,0 +1,471 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #541554;
+  width: 100%;
+}
+.signup-text {
+  text-align: center;
+  color: white;
+  margin-inline: 4%;
+  margin-top: 15px;
+  flex: 1;
+}
+.signup-text h1 {
+  font-size: 48px;
+  letter-spacing: -3px;
+  line-height: 1.1;
+}
+.signup-text .title {
+  color: #ecb22e;
+}
+.signup-text p {
+  padding-top: 8px;
+  padding-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+}
+.signup-text .button {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.signup-text .button-slack {
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #611f69;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 19px 40px 20px;
+}
+.signup-text .button-google {
+  border: none;
+  border-radius: 4px;
+  background-color: #4285f4;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 4px 16px 4px 4px;
+}
+.signup-text .button span {
+  flex: 1;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .signup-vid {
+    max-height: 360px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .signup-vid video {
+    max-width: 700px;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.skills {
+  background-color: #F4EDE4;
+  padding-top: 3rem;
+}
+.skills-companies {
+  width: 100%;
+  justify-content: center;
+}
+.skills-companies p {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  margin-bottom: 16px;
+  padding-inline: 8%;
+  text-align: center;
+}
+.skills-companies .companies-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding-inline: 4%;
+}
+.skills-companies .companies-logo img {
+  width: 100px;
+  height: auto;
+}
+.skills-info {
+  padding-block: 3rem;
+  display: flex;
+}
+.skills-info .skills-vid {
+  max-height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.skills-info .skills-vid video {
+  max-width: 700px;
+  max-height: 400px;
+  width: 100%;
+  height: auto;
+}
+.skills-info .skills-text {
+  margin-top: 2rem;
+}
+.skills-info .skills-text h2 {
+  font-size: 32px;
+  letter-spacing: -1.3px;
+}
+.skills-info .skills-text p {
+  font-size: 18px;
+  line-height: 1.44;
+}
+.skills-info .skills-text h2, .skills-info .skills-text p {
+  margin-bottom: 16px;
+}
+.skills-info .skills-text a {
+  color: #1264a3;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.teams {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  flex-direction: column;
+}
+.teams-text {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.teams-text h2 {
+  font-size: 32px;
+  letter-spacing: -1.3px;
+  margin: 32px 0px 16px;
+}
+.teams-text p {
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: -0.2px;
+}
+.teams .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 4rem;
+}
+.teams .button-info {
+  border: none;
+  border-radius: 4px;
+  background-color: #611f69;
+  color: #fff;
+}
+.teams .button-contact {
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #611f69;
+}
+.teams .button-info, .teams .button-contact {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 19px 40px 20px;
+}
+.teams-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+.teams-stats .stats-item {
+  text-align: center;
+  margin-inline: 25%;
+}
+.teams-stats .percentage {
+  font-size: 48px;
+  color: #611f69;
+  font-weight: 700;
+  line-height: 1;
+}
+.teams-stats p {
+  font-size: 14px;
+}
+.teams-vid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.teams-vid .videoyt {
+  width: 500px;
+  height: 200px;
+  -webkit-clip-path: inset(25px 0 25px 0 round 0 500px 500px 0);
+          clip-path: inset(25px 0 25px 0 round 0 500px 500px 0);
+}
+.teams-yt-quote {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+.teams-yt-quote .teams-vid {
+  width: 50%;
+}
+.teams-yt-quote .teams-vid iframe.videoyt {
+  width: 100%;
+}
+.teams-yt-quote .ytquote {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.teams-yt-quote .ytquote-p {
+  font-size: 18px;
+  margin-top: 30px;
+  font-style: italic;
+  font-weight: 300;
+}
+.teams-yt-quote .ytquote-info {
+  display: flex;
+  flex-direction: column;
+}
+.teams-yt-quote .ytquote-info-name {
+  font-size: 15px;
+}
+.teams-yt-quote .ytquote-info-carge {
+  font-size: 15px;
+}
+.teams-yt-quote .ytquote-info-a {
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: #1164a3;
+}
+
+.carrousel {
+  padding-block: 2rem;
+  background-color: #F4EDE4;
+}
+.carrousel-title {
+  margin: 0 auto;
+  padding-inline: 4%;
+}
+.carrousel-title h2 {
+  text-align: center;
+  margin-block: 1rem;
+  font-weight: 750;
+  line-height: 1.2;
+  letter-spacing: -1.2px;
+  font-size: 1.5rem;
+}
+.carrousel-card {
+  min-height: 420px;
+  margin: auto;
+  width: 285px;
+  background-color: #fff;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+}
+.carrousel-card-img {
+  padding: 12px;
+}
+.carrousel-card-img, .carrousel-card-text, .carrousel-card-a {
+  padding-inline: 12px;
+}
+.carrousel-card-text p {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #454245;
+}
+.carrousel-card-text h3 {
+  margin: 8px 0 16px;
+  font-size: 1.4rem;
+  line-height: 30px;
+  font-weight: 700;
+}
+.carrousel-card-a {
+  margin-top: 40px;
+  padding-block: 20px;
+}
+.carrousel-card-a a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: #1264a3;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.carrousel-icon {
+  width: 102px;
+  height: 20px;
+  margin: auto;
+  padding-top: 1.5rem;
+}
+
+.singup {
+  padding-block: 6rem;
+  background: #611f69;
+  -webkit-clip-path: ellipse(105% 100% at center top);
+          clip-path: ellipse(105% 100% at center top);
+}
+.singup-content {
+  padding: 0 4vw;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+.singup-content h2 {
+  font-size: 2rem;
+  letter-spacing: -1.3px;
+  margin-bottom: 2rem;
+}
+.singup .btn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.singup .btn-prueba {
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #611f69;
+  box-shadow: inset 0 0 0 1px #611f69;
+}
+.singup .btn-ventas {
+  border: none;
+  border-radius: 4px;
+  background-color: #611f69;
+  color: #fff;
+  box-shadow: inset 0 0 0 1px #fff;
+}
+.singup .btn-prueba, .singup .btn-ventas {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 19px 40px 20px;
+}
+
+@media screen and (min-width: 481px) {
+  .header {
+    background-color: #541554;
+    height: 80px;
+  }
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 8%;
+  }
+  .header .slack-logo {
+    height: 82px;
+    width: 161px;
+  }
+  .header .burger-logo {
+    height: 50px;
+    width: 50px;
+  }
+}
+.more-info {
+  padding-top: 3.5rem;
+  padding-inline: 4%;
+  margin: 0 auto;
+}
+.more-info .infolist {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.more-info .infolist-ul {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.more-info .infolist-ul li {
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.legal-info {
+  margin-bottom: 1rem;
+  padding: 0 4%;
+  margin-inline: auto;
+}
+.legal-info .legal-list {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-top: 2px solid #ebeaeb;
+  padding-block: 1rem;
+}
+.legal-info .legal-list li {
+  padding-block: 16px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.legal-info .download-a {
+  color: #1264a3;
+  font-weight: 700;
+  font-size: 14px;
+  padding-block: 16px;
+}
+.legal-info .rrss-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+.legal-info .rrss-list li {
+  display: flex;
+  padding-block: 16px;
+}
+.legal-info .copyright {
+  font-size: 12px;
+  color: #454245;
+  font-weight: 400;
+  line-height: 1.25rem;
+  padding-block: 16px;
+}/*# sourceMappingURL=main.css.map */
